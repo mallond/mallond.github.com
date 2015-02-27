@@ -5,6 +5,7 @@ description: "Journey and Discovery of Elixir (journal)"
 category: Google  
 tags: [Google]]
 ---
+{% include JB/setup %}
 # Goal
 
 ## Setup Links - What you need to do before diving into the code
