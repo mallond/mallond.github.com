@@ -10,7 +10,7 @@ tags: [Elixir]
 ## Setup Links - What you need to do before diving into the code
 1. [Vim](http://rustamserg.com/?p=171)
 2. [Phoenix](http://www.phoenixframework.org/)
-3. Google Compute 
+3. Google Compute Engine 
 
 ### Inventory of Parts
 1. **Erlang** Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability. 
