@@ -4,7 +4,8 @@ title: "Chromebook Log"
 description: "Nothing but WEB"
 category: 
 tags: []
+image: post_two.jpg
 ---
-{% include JB/setup %} 
+
 
 ##Nothing But Chrome
