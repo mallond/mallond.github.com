@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Elixir MIX"
+title: "Chromebook Log"
 description: "Journey and Discovery of Elixir (journal)"
-category: Elixir 
-tags: [Elixir]
+category: Google  
+tags: [Google]]
 ---
 # Goal
 
