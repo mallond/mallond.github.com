@@ -3,7 +3,7 @@ layout: post
 title: "Elixir MIX"
 description: "Journey and Discovery of Elixir (journal)"
 category: Elixir 
-tags: [Elixir]
+tags: 
 image: post_one.jpg
 ---
 <h1>Goal</h1>
