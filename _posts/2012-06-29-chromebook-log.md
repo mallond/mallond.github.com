@@ -9,7 +9,7 @@ image: post_two.jpg
 Chromebook Log
 by David Mallon
 
-Chromebook Log: Week 1
+##Chromebook Log: Week 1
 
 My computer angst
 -Past
@@ -19,7 +19,9 @@ My computer angst
 
 >“Be committed to trying out a Nothing but WEB environment.”
 
-It has  been three days since I ordered the Chromebook that I am using right now. I was so fascinated by this little machine I had to do a post. For starters: I have been doing world wide web development since 1999.  I would call myself an OJD – “Original Java Developer,” (aka Old Java dude) and, in fact, you would call me a Java  Bigot.  For my MBA studies in 1997, I went hog wild and turned in some papers outlining the domination of this new Class of language–called JAVA. Chromebook Log: Week 52
+It has  been three days since I ordered the Chromebook that I am using right now. I was so fascinated by this little machine I had to do a post. For starters: I have been doing world wide web development since 1999.  I would call myself an OJD – “Original Java Developer,” (aka Old Java dude) and, in fact, you would call me a Java  Bigot.  For my MBA studies in 1997, I went hog wild and turned in some papers outlining the domination of this new Class of language–called JAVA. 
+
+##Chromebook Log: Week 52
 
 >“Java is Dead – Long live JavaScript.”
 
