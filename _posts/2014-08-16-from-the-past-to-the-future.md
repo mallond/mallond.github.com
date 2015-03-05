@@ -3,7 +3,7 @@ layout: post
 title: "Node.js - From the Past Back to the Future"
 description: "Nothing but WEB"
 category: node
-tags: [node]
+tags: 
 image: nodejsbw.jpg
 ---
  
