@@ -4,7 +4,7 @@ title: "Node.js - From the Past Back to the Future"
 description: "Nothing but WEB"
 category: node
 tags: [node]
-image: nodejs_logo_green.png
+image: nodejsbw.jpg
 ---
  
  # Node.js - From the Past Back to the Future
