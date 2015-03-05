@@ -23,7 +23,7 @@ It has  been three days since I ordered the Chromebook that I am using right now
 
 ##Chromebook Log: Week 52
 
->“Java is Dead – Long live JavaScript.”
+>“Doing enterprise-level Java development is like driving a Mac Truck over a tight skinny wood bridge-doable but not pretty.”
 
 Back to the Present: – doing  enterprise-level Java development is like driving a Mac Truck over a tight skinny wood bridge-doable but not pretty. Think of the Web stack: Web Server, Application server, Database,  Java framework (shit this can go 10 levels deep), JDA, JDO, EJB, JMS, XML, XLST, Spring, ANT, JMS, MVC, JSF,  not to mention security, authentication, authorization, and don’t forget Performance. Now, you need DBA, WAS administrator, Linux Admins, Security experts, Java Developers, Java Architects, Project Managers and God forbid a Scrum master. The present has become BIG, BAD, and UGLY. You could say it has become a bit loony. Something has to change, and in fact I have been searching for this change for the last five years! What does the crystal ball foretell? Chromebook log: It has been a wild ride… “I have found it!” My fortune cards predict:
 
