@@ -205,7 +205,7 @@ result = {"ok":true,"id":"ac600e473be3bab790d6ea66f0c04564"}
 
 ```
 
-**READ GET**
+**READ   GET**
 
 ```
 curl http://localhost:4000/read?id=1
@@ -230,6 +230,27 @@ result = {"ok":"delete - simulation"}
 ```
 
 
+[] **Note:** HTTPoison example - will **refactor**
+```
+  # Using HttPoision Mirror
+  def mirror(conn, _params) do
+
+      Logger.debug "mirror my request"
+      url = "http://127.0.0.1:4000/read?id=1"
+      Logger.debug url
+      case HTTPoison.get(url) do
+        {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
+          json conn, body
+        {:ok, %HTTPoison.Response{status_code: 404}} ->
+          IO.puts "Not found :("
+        {:error, %HTTPoison.Error{reason: reason}} ->
+          IO.inspect reason
+      end
+
+  end
+```
+
+
 
 
 ##### Define a view based on named controller
@@ -246,6 +267,27 @@ NA
 > Provide functions called actions to handle requests Actions
 
 For this demo the CREATE action has been integrated with CouchDB all others return mock JSON data
+
+[] **Note:** HTTPoison example - will refactor
+```
+  # Using HttPoision Mirror
+  def mirror(conn, _params) do
+
+      Logger.debug "mirror my request"
+      url = "http://127.0.0.1:4000/read?id=1"
+      Logger.debug url
+      case HTTPoison.get(url) do
+        {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
+          json conn, body
+        {:ok, %HTTPoison.Response{status_code: 404}} ->
+          IO.puts "Not found :("
+        {:error, %HTTPoison.Error{reason: reason}} ->
+          IO.inspect reason
+      end
+
+  end
+```
+
 
 ```
 defmodule ElixirMix.CloudController do
@@ -349,6 +391,19 @@ defmodule CouchServer do
             header: ["Accept": "application/json","Content-type": "application/json;charset=utf-8"],
             query: ""
 end
+```
+### Other
+```
+Time Test
+
+time curl -X POST -H "Content-Type: application/json; charset=UTF-8" "http://localhost:4000/create?[1-1000]" -d  '{"user":"Joe","status":"new","description":"Elixir demo log entry"}'
+
+or
+
+run a script
+
+time ./timetest_get.sh
+
 ```
 ### Installation and Run
 
