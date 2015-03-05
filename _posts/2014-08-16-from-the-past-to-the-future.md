@@ -7,8 +7,9 @@ tags: [node]
 image: nodejsbw.jpg
 ---
  
- # Node.js - From the Past Back to the Future
- ##### by David Mallon
+ ##Node.js - From the Past Back to the Future
+
+ by David Mallon
 
 **From the past:** Back in the day (distant past) the majority of software development was single threaded (you had no choice). This interface consisted of a single threaded model of Data and Code, with each user having his or her data and reusing program segments that were already in memory. Any of you remember reentrant code? Why do I mention such old archaic technology? In the mainframe era, you could have a single programmer develop some fabulous software applications.  You acted as if you were developing for a single user and magically it scaled for multiple users. ...Well, limited scalability.
 
